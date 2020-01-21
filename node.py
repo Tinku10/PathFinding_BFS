@@ -4,6 +4,7 @@ class Node:
         self.i = i
         self.j = j
         # linking a node to its adjecent nodes using array indexes
+        # 8 for diagonal movement else 4
         self.edges = [None for k in range(4)]
         self.distance = None
         self.wall = False
